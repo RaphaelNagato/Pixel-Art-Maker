@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background: linear-gradient(to left, #000000, #434343);
+    background-size: cover;
+    background-repeat: repeat;
+    color: white;
+}
+
+/* Headings */
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: #fcb22b;  
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fcb22b;
+    font-style: italic;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+/* form */
+form {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#button:hover {
+    font-weight: bold;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+
+/* Grid */
+table {
+    background-color: white;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
